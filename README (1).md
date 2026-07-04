@@ -93,6 +93,10 @@ Visit **http://localhost:3000/seed** once after starting the server to populate 
 - This project uses a hardcoded session secret in `server.js` for local development — replace it with an environment variable (see `.env`) before deploying anywhere public.
 - `themepark.db` is created automatically on first run; delete it if you want a completely fresh database.
 
-## License
-
-ISC
+> ## ⚠️ Academic Misconduct Warning
+>
+> **Copying, reusing, or submitting any part of this code as your own work is considered academic misconduct** and violates Bow Valley College's academic integrity policy.
+>
+> Students found copying this work may face serious academic consequences including a failing grade or expulsion.
+>
+> This code is shared publicly for referance purposes only.
