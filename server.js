@@ -18,7 +18,7 @@ app.use(
 
 app.use(
   session({
-    secret: "themeparksecret",
+    secret: "",    // add the secret string to cryptographically sign the session
 
     resave: false,
 
