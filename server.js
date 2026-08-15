@@ -337,18 +337,19 @@ app.post("/login", (req, res) => {
 //     );
 
 // });
-app.get("/api/rides", (req, res) => {
-  db.all(
-    `SELECT * FROM rides`,
-    [],
-    (err, rows) => {
-      if (err) {
-        return res.status(500).json(err);
-      }
-      res.json(rows);
-    },
-  );
-});
+// app.get("/api/rides", (req, res) => {
+//   db.all(
+//     `SELECT * FROM rides`,
+//     [],
+//     (err, rows) => {
+//       if (err) {
+//         return res.status(500).json(err);
+//       }
+//       res.json(rows);
+//     },
+//   );
+// });
+
 app.get("/logout", (req, res) => {
   req.session.destroy(() => {
     res.redirect("/");
